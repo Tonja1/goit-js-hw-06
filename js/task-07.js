@@ -7,6 +7,6 @@ inputFontSize.addEventListener('change', onInputFontSize);
 
 function onInputFontSize(event) {
     inputFontSize.range = event.currentTarget.value;
-    spanText.stile.fontSize = `${event.target.value}px`;
+    spanText.style.fontSize = `${event.target.value}px`;
     console.log(spanText.textContent);
 }
